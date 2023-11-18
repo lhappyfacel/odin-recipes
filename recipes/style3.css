@@ -1,0 +1,44 @@
+h1,h2,h3,p,ul,h3,li{
+    color: white;
+}
+body{
+    background-color: black;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+li::before {
+    content: '\2022';
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 35%;
+}
+ol{
+    list-style: none;   
+}
+b{
+    font-size: xx-large;
+}
+li{
+    font-size: x-large;
+    margin-top: 40px;
+}
+h3,p{
+    font-size: x-large;
+}
+h2{
+    font-size: xx-large;
+}
